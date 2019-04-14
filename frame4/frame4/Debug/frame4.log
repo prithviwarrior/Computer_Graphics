@@ -1,0 +1,10 @@
+﻿  Source.cpp
+c:\users\user\source\repos\frame4\frame4\source.cpp(12): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\frame4\frame4\source.cpp(13): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\user\source\repos\frame4\frame4\source.cpp(35): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\frame4\frame4\source.cpp(109): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\frame4\frame4\source.cpp(110): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\frame4\frame4\source.cpp(122): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+c:\users\user\source\repos\frame4\frame4\source.cpp(141): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\frame4\frame4\source.cpp(165): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  frame4.vcxproj -> C:\Users\user\source\repos\frame4\Debug\frame4.exe

@@ -1,0 +1,5 @@
+﻿  Frame1.cpp
+c:\users\user\source\repos\frame1\frame1\frame1.cpp(82): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  pch.cpp
+c:\users\user\source\repos\frame1\frame1\pch.cpp(3): fatal error C1854: cannot overwrite information formed during creation of the precompiled header in object file: 'c:\users\user\source\repos\frame1\frame1\debug\pch.obj'
+  Generating Code...

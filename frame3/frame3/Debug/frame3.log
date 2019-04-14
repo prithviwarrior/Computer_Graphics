@@ -1,0 +1,8 @@
+﻿  Source.cpp
+c:\users\user\source\repos\frame3\frame3\source.cpp(13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\frame3\frame3\source.cpp(14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\user\source\repos\frame3\frame3\source.cpp(36): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\frame3\frame3\source.cpp(251): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+c:\users\user\source\repos\frame3\frame3\source.cpp(258): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\frame3\frame3\source.cpp(285): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  frame3.vcxproj -> C:\Users\user\source\repos\frame3\Debug\frame3.exe
