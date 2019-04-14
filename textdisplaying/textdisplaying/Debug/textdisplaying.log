@@ -1,0 +1,12 @@
+﻿  Source.cpp
+c:\users\user\source\repos\textdisplaying\textdisplaying\source.cpp(17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\textdisplaying\textdisplaying\source.cpp(18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\user\source\repos\textdisplaying\textdisplaying\source.cpp(44): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\textdisplaying\textdisplaying\source.cpp(165): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\textdisplaying\textdisplaying\source.cpp(170): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\textdisplaying\textdisplaying\source.cpp(175): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\textdisplaying\textdisplaying\source.cpp(420): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+c:\users\user\source\repos\textdisplaying\textdisplaying\source.cpp(466): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\textdisplaying\textdisplaying\source.cpp(475): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\textdisplaying\textdisplaying\source.cpp(488): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  textdisplaying.vcxproj -> C:\Users\user\source\repos\textdisplaying\Debug\textdisplaying.exe

@@ -1,0 +1,13 @@
+﻿  Source.cpp
+c:\users\user\source\repos\animation\animation\source.cpp(14): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\animation\animation\source.cpp(15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\user\source\repos\animation\animation\source.cpp(33): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\animation\animation\source.cpp(152): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\animation\animation\source.cpp(157): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\animation\animation\source.cpp(162): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\animation\animation\source.cpp(436): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+c:\users\user\source\repos\animation\animation\source.cpp(443): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\animation\animation\source.cpp(495): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\animation\animation\source.cpp(504): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\animation\animation\source.cpp(545): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  animation.vcxproj -> C:\Users\user\source\repos\animation\Debug\animation.exe
