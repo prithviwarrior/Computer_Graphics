@@ -1,0 +1,11 @@
+﻿  Source.cpp
+c:\users\user\source\repos\vismay_frame\vismay_frame\source.cpp(12): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\vismay_frame\vismay_frame\source.cpp(13): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\user\source\repos\vismay_frame\vismay_frame\source.cpp(35): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\vismay_frame\vismay_frame\source.cpp(102): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\vismay_frame\vismay_frame\source.cpp(111): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\vismay_frame\vismay_frame\source.cpp(119): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\vismay_frame\vismay_frame\source.cpp(163): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+c:\users\user\source\repos\vismay_frame\vismay_frame\source.cpp(182): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\vismay_frame\vismay_frame\source.cpp(202): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Vismay_frame.vcxproj -> C:\Users\user\source\repos\Vismay_frame\Debug\Vismay_frame.exe
