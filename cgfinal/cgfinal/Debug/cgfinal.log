@@ -1,18 +1,24 @@
 ﻿  Source.cpp
-c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(14): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(33): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(147): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(152): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(157): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(680): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(681): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(939): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
-c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(958): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
-c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(999): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
-c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(1038): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(22): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(40): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(154): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(159): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(164): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(355): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(363): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(769): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(770): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(1028): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
 c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(1047): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
-c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(1068): warning C4305: '-=': truncation from 'double' to 'GLfloat'
-c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(1104): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
-c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(1138): warning C4326: return type of 'main' should be 'int' instead of 'void'
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(1088): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(1128): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(1143): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(1164): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(1191): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(1192): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(1193): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(1194): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(1206): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+c:\users\user\source\repos\cgfinal\cgfinal\source.cpp(1240): warning C4326: return type of 'main' should be 'int' instead of 'void'
   cgfinal.vcxproj -> C:\Users\user\source\repos\cgfinal\Debug\cgfinal.exe

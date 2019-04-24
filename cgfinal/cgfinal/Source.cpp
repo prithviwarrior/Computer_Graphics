@@ -7,6 +7,13 @@
 
 GLint i, x1 = 0;
 GLfloat cx1 = 24;
+GLfloat cx2 = -45;
+GLfloat cx3 = -45;
+GLfloat cx4 = 30;
+GLfloat cx5 = -45;
+GLfloat cx6 = -41;
+GLfloat cx7 = -34;
+
 
 void bitmap_output(double x, double y, const char  *string, void *font)
 {
@@ -304,6 +311,61 @@ void mom()
 	glVertex3f(36, -29, 0);
 	glEnd();
 }
+void car()
+{
+	glBegin(GL_POLYGON);			//car body
+	glColor3f(1.0, 1.0, 0.0);
+	glVertex3f(-45, -20, 0);
+	glVertex3f(-45, -12, 0);
+	glVertex3f(-42, -12, 0);
+	glVertex3f(-40, -5, 0);
+	glVertex3f(-35, -5, 0);
+	glVertex3f(-32, -12, 0);
+	glVertex3f(-30, -12, 0);
+	glVertex3f(-30, -20, 0);
+	glEnd();
+
+	glBegin(GL_POLYGON);			//car window
+	glColor3f(1.0, 1.0, 1.0);
+	glVertex3f(-40, -6, 0);
+	glVertex3f(-35, -6, 0);
+	glVertex3f(-35, -11, 0);
+	glVertex3f(-40, -11, 0);
+	glEnd();
+
+	glBegin(GL_POLYGON);			//black line 
+	glColor3f(0.0, 0.0, 0.0);
+	glVertex3f(-37.5, -6, 0);
+	glVertex3f(-37, -6, 0);
+	glVertex3f(-37, -11, 0);
+	glVertex3f(-37.5, -11, 0);
+	glEnd();
+
+	glBegin(GL_POLYGON);			//car bottom red
+	glColor3f(1.0, 0.0, 0.0);
+	glVertex3f(-44, -19, 0);
+	glVertex3f(-44, -13, 0);
+	glVertex3f(-31, -13, 0);
+	glVertex3f(-31, -19, 0);
+	glEnd();
+
+	glPushMatrix();
+	//glTranslatef(0.0, 0.0, 0.0);
+	glTranslatef(cx6, -20.0, 0.0);
+	glScalef(0.7, 1.0, 0.0);
+	glColor3f(1.0, 1.0, 1.0);
+	circle(3);
+	glPopMatrix();
+
+	glPushMatrix();
+	//glTranslatef(0.0, 0.0, 0.0);
+	glTranslatef(cx7, -20.0, 0.0);
+	glScalef(0.7, 1.0, 0.0);
+	glColor3f(1.0, 1.0, 1.0);
+	circle(3);
+	glPopMatrix();
+}
+
 
 void road()
 {
@@ -420,7 +482,12 @@ void road1()
 	glEnd();
 
 
-
+	/*glBegin(GL_LINE_LOOP);			//child  nose
+	glColor3f(0.0f, 0.0f, 0.0f);
+	glVertex3f(-4.5, 20, 0);
+	glVertex3f(-5.0, 25, 0);
+	//glVertex3f(-5.3, 10, 0);
+	glEnd();*/
 
 	glBegin(GL_POLYGON);			//child face
 	glColor3f(1.0f, 1.0f, 1.0f);
@@ -429,6 +496,28 @@ void road1()
 	glVertex3f(-8, 40, 0);
 	glVertex3f(-2, 40, 0);
 	glVertex3f(-2, 35, 0);
+	glEnd();
+
+
+	glBegin(GL_LINE_LOOP);			//child left eye
+	glColor3f(0.0f, 0.0f, 1.0f);
+	glVertex3f(-4, 20, 0);
+	glVertex3f(-4.5, 35, 0);
+	
+	glEnd();
+
+	glBegin(GL_LINE_LOOP);			//child  right eye
+	glColor3f(0.0f, 0.0f, 1.0f);
+	glVertex3f(-6.0, 20, 0);
+	glVertex3f(-6.5, 35, 0);
+	glEnd();
+
+	glBegin(GL_POLYGON);			//black line 
+	glColor3f(0.0, 0.0, 0.0);
+	glVertex3f(0, 33, 0);
+	glVertex3f(-5,33, 0);
+	glVertex3f(-5, 35, 0);
+	glVertex3f(0, 35, 0);
 	glEnd();
 
 	glBegin(GL_POLYGON);			//child hair
@@ -938,7 +1027,7 @@ void display5(void)
 	glPushMatrix();
 	glTranslatef(x1, 0, 0);
 	glPopMatrix();
-	bitmap_output(-10, 40, "DIFFERENT PRODUCTS OF HORLICKS", GLUT_BITMAP_HELVETICA_18);
+	bitmap_output(-10, 40, "DIFFERENT PRODUCTS OF HORLICKS", GLUT_BITMAP_TIMES_ROMAN_24);
 	bitmap_output(-39, 2, "HORLICKS", GLUT_BITMAP_HELVETICA_18);
 	bitmap_output(-19, 2, "HORLICKS", GLUT_BITMAP_HELVETICA_18);
 	bitmap_output(11, 2, "HORLICKS", GLUT_BITMAP_HELVETICA_18);
@@ -980,7 +1069,7 @@ void display3(void)
 	glClear(GL_COLOR_BUFFER_BIT);
 	road2();
 	glPushMatrix();
-	glTranslatef(cx1, 10, 0);
+	glTranslatef(cx4, 10, 0);
 	mom();
 	glPopMatrix();
 	/*glPushMatrix();
@@ -1015,32 +1104,39 @@ void display1(void)
 	glScalef(1.0, 1.5, 0.0);
 	glColor3f(1.0, 1.0, 0.0);
 	circle(3);
-
 	glPopMatrix();
+
+	
 
 	//Cloud1
 	glPushMatrix();
 	glColor3f(1, 1, 1);
-	glTranslatef(0, 17.0, 0.0);
+	glTranslatef(cx1, 17.0, 0.0);
 	cloudB();
 	glPopMatrix();
 
 	//Cloud2
 	glPushMatrix();
 	glColor3f(1, 1, 1);
-	glTranslatef(0, 20.0, 0.0);
+	glTranslatef(cx2, 20.0, 0.0);
 	cloudB();
 	glPopMatrix();
 
 	//Cloud3
 	glPushMatrix();
-	glTranslatef(0, 0.0, 0.0);
+	glTranslatef(cx3, 0.0, 0.0);
 	glScalef(0.8, 1, 0);
 	cloud();
 	glPopMatrix();
 	draw_tree();
 
 	road();
+
+	glPushMatrix();
+	glColor3f(1, 1, 1);
+	glTranslatef(cx5, -5.0, 0.0);
+	car();
+	glPopMatrix();
 
 	glPushMatrix();
 	//glTranslatef(10,10,0);
@@ -1065,10 +1161,10 @@ void spindisplay4()
 
 void spindisplay3()
 {
-	cx1 -= 0.01;
-	if (cx1 < -20)
+	cx4 -= 0.01;
+	if (cx4 < -20)
 	{
-		cx1 = -20;
+		cx4 = -20;
 		for (int i = 0; i < 32000; i++)
 			for (int j = 0; j < 32000; j++)
 				{ }
@@ -1080,8 +1176,8 @@ void spindisplay3()
 
 void spindisplay2()
 {
-	for (int i = 0; i < 32000; i++)
-		for (int j = 0; j < 32000; j++)
+	for (int i = 0; i < 40000; i++)
+		for (int j = 0; j < 40000; j++)
 			{
 			}
 	glutDisplayFunc(display3);
@@ -1091,13 +1187,19 @@ void spindisplay2()
 
 void spindisplay1()
 {
-	for(int i=0;i<32000;i++)
-		for (int j = 0; j < 32000; j++)
-				{ }
-	glutDisplayFunc(display2);
-	glutIdleFunc(spindisplay2);
+
+	cx1 += 0.01;
+	cx2 += 0.01;
+	cx3 += 0.01;
+	cx5 += 0.03;
+	if (cx1 > 74)
+	{
+		glutDisplayFunc(display2);
+		glutIdleFunc(spindisplay2);
+	}
 	glutPostRedisplay();
 }
+
 
 void init(void)
 {
@@ -1109,16 +1211,16 @@ void init(void)
 void display(void)
 {
 	glClear(GL_COLOR_BUFFER_BIT);
-	bitmap_output(-15, 40, "DAYANANDA SAGAR COLLEGE OF ENGINEERING", GLUT_BITMAP_HELVETICA_18);
+	bitmap_output(-20, 40, "DAYANANDA SAGAR COLLEGE OF ENGINEERING", GLUT_BITMAP_TIMES_ROMAN_24);
 	bitmap_output(-15, 30, "COMPUTER SCIENCE AND ENGINEERING", GLUT_BITMAP_HELVETICA_18);
-	bitmap_output(-15, 20, "COMPUTER GRAPHICS AND VISUALIZATION PROJECT", GLUT_BITMAP_HELVETICA_18);
-	bitmap_output(-15, 0, "ADVERTISEMENT FOR HORLICKS", GLUT_BITMAP_HELVETICA_18);
-	bitmap_output(-15, -20, "Project By", GLUT_BITMAP_HELVETICA_18);
-	bitmap_output(-15, -25, "Murulidhara M          1DS16CS063", GLUT_BITMAP_HELVETICA_18);
-	bitmap_output(-15, -30, "Prathviraj             1DS16CS080", GLUT_BITMAP_HELVETICA_18);
-	bitmap_output(-15, -35, "Mohan                  1DS16CS059", GLUT_BITMAP_HELVETICA_18);
-	bitmap_output(-12, 5, "Press ESC to exit", GLUT_BITMAP_HELVETICA_18);
-	bitmap_output(-12, 10, "Press spacebar to start", GLUT_BITMAP_HELVETICA_18);
+	bitmap_output(-18, 20, "COMPUTER GRAPHICS AND VISUALIZATION PROJECT", GLUT_BITMAP_HELVETICA_18);
+	bitmap_output(-14, 0, "ADVERTISEMENT FOR HORLICKS", GLUT_BITMAP_HELVETICA_18);
+	bitmap_output(-13, -20, "Project By", GLUT_BITMAP_HELVETICA_18);
+	bitmap_output(-13, -25, "Murulidhara M          1DS16CS063", GLUT_BITMAP_HELVETICA_18);
+	bitmap_output(-13, -30, "Prathviraj             1DS16CS080", GLUT_BITMAP_HELVETICA_18);
+	bitmap_output(-13, -35, "Mohan                  1DS16CS059", GLUT_BITMAP_HELVETICA_18);
+	bitmap_output(-8, 5, "Press ESC to exit", GLUT_BITMAP_HELVETICA_18);
+	bitmap_output(-10, 10, "Press spacebar to start", GLUT_BITMAP_HELVETICA_18);
 
 	glFlush();
 }
@@ -1147,5 +1249,4 @@ void main(int argc, char **argv)
 	glutKeyboardFunc(processNormalKeys);
 	glutMainLoop();
 }
-
 
